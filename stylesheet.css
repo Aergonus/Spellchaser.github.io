@@ -1,0 +1,185 @@
+div {
+	border-radius: 5px;
+}
+
+#background_1 {
+  background: url(http://robertrodriguezjrcom.c.presscdn.com/wp-content/gallery/hudson-valley/RRjr_Firetower-Light-Hudson-Valley.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#background_2 {
+  background: url(https://images.theoutbound.com/uploads/1436324757426/ivkaaoy9zu5zh0k9/0aa9075f3ea32eb9aee7d6e6fae05962) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#background_3 {
+  background: url(http://robertrodriguezjrcom.c.presscdn.com/wp-content/gallery/hudson-valley/RRjr_Beacon-Reflection-Hudson-Valley.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 90%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #4C4C4C;
+	margin-bottom: 10px;
+     left:5%;
+}
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#RSVP{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+#outPopUp{
+     position:absolute;
+     width:300px;
+     height:200px;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin:-100px 0 0 -150px;
+     background:red;
+}
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Verdana, sans-serif;
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: Garamond, serif;
+	color: #000000;
+}
+
+#content {
+	float: right;
+	text-align: right;
+}
+
+#content .marketing {
+	 position:absolute;
+     width: auto;
+     height:auto;
+     z-index:1;
+     top: 25%;
+     left:85%;
+     margin:-100px 0 0 -150px;
+	 color: white;
+     background:gray;
+	 background-color: rgba(0, 0, 0, 0.3);
+}
+
+#content .info {
+	 position:absolute;
+     width: auto;
+     height:auto;
+     z-index:1;
+     bottom: 15%;
+     right:5%;
+     margin:-100px 0 0 -150px;
+     background:gray;
+	 background-color: rgba(0, 0, 0, 0.3);
+	 color: white;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 10%;
+	height: 400px;
+	background-color: #B9D7D9;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 400px;
+	background-color: #F4EBC3;
+	margin-bottom: 10px;
+}
+
+#footer {
+	position: absolute;
+	width: 90%;
+	height: 50px;
+	background-color: #4C4C4C;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+	bottom:0;
+     left:5%;
+}
+
+#footer p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#footer .Leader-Wrapper {
+	position: absolute;
+	text-align:center;
+	margin-top: 15px;
+	background-color: #4C4C4C;
+	margin-bottom: 10px;
+}
+
+.Leader {
+	width: 20%;
+	height: 25px;
+}
+
+#Alex {
+	float:left;
+}
+#Marcin {
+	float:right;
+}
+#Victor {
+    display: inline-block;
+    margin:0 auto;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
