@@ -2,6 +2,10 @@ div {
 	border-radius: 5px;
 }
 
+a {
+	text-decoration: overline;
+	color: white;
+}
 #background_1 {
   background: url(http://robertrodriguezjrcom.c.presscdn.com/wp-content/gallery/hudson-valley/RRjr_Firetower-Light-Hudson-Valley.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -27,12 +31,13 @@ div {
 #header {
 	z-index: 1;
 	position: fixed;
-	width: 90%;
+	width: 100%;
 	margin-top: -20px;
 	height: 60px;
 	background-color: #4C4C4C;
+	background-color: rgba(0, 0, 0, 0.7);
 	margin-bottom: 10px;
-     left:5%;
+     left:0%;
 }
 #name {
 	float:left;
@@ -82,6 +87,7 @@ h4 {
 #content {
 	float: right;
 	text-align: right;
+	border-radius: 1px;
 }
 
 #content .marketing {
@@ -90,7 +96,7 @@ h4 {
      height:auto;
      z-index:1;
      top: 25%;
-     left:85%;
+	 right: 3%;
      margin:-100px 0 0 -150px;
 	 color: white;
      background:gray;
@@ -103,8 +109,8 @@ h4 {
      height:auto;
      z-index:1;
      bottom: 15%;
-     right:5%;
-     margin:-100px 0 0 -150px;
+     right:10%;
+     margin:-100px 0 0 -1500px;
      background:gray;
 	 background-color: rgba(0, 0, 0, 0.3);
 	 color: white;
@@ -112,26 +118,6 @@ h4 {
 
 a:hover {
 	font-weight: bold;
-}
-
-.left {
-	position: relative;
-	float: left;
-	margin-top: 50px;
-	width: 10%;
-	height: 400px;
-	background-color: #B9D7D9;
-	margin-bottom: 10px;
-}
-
-.right {
-	position: relative;
-	float: right;
-	margin-top: 50px;
-	width: 88%;
-	height: 400px;
-	background-color: #F4EBC3;
-	margin-bottom: 10px;
 }
 
 #footer {
@@ -144,6 +130,7 @@ a:hover {
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.5);
 	bottom:0;
      left:5%;
 }
@@ -159,10 +146,12 @@ a:hover {
 	margin-top: 15px;
 	background-color: #4C4C4C;
 	margin-bottom: 10px;
+	width: 50%;
+	left:25%;
 }
 
 .Leader {
-	width: 20%;
+	width: 30%;
 	height: 25px;
 }
 
@@ -173,13 +162,12 @@ a:hover {
 	float:right;
 }
 #Victor {
-    display: inline-block;
     margin:0 auto;
 }
 
 img {
     height: auto; 
     width: auto; 
-    max-width: 100px; 
-    max-height: 100px;
+    max-width: 150px; 
+    max-height: 150px;
 }
