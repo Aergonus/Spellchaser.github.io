@@ -1,3 +1,4 @@
+<!-- 
 <!DOCTYPE html>
 <html>
 	<head>
@@ -15,3 +16,82 @@
     <script type="text/javascript" src="./js/script.js"></script>
 	</body>
 </html>
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>CU Outdoors - Sunset Hike F2015</title>
+	</head>
+	<body id='background_2'>
+		<div id="header">
+			<p id="name">CU Outdoors - Sunset Hike F2015</p>
+			<a href="sunsethike.splashthat.com"><p id="RSVP">RSVP!</p></a>
+		</div>
+		<div id="content">
+			<div class='marketing'>
+				<h4>Join Outdoors Club on 10/3</h4>
+				<p>for our first sunset hike.</p>
+			</div>
+			
+			<div class='info'> 
+				<p>Meet in front of the NAB</p>
+				<p>2 PM SHARP 10/3</p>
+				<p>Snacks will be provided</p>
+				<p>Bring $$ for transi, dinner, and water to stay alive</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>Your Outdoors Leaders</p>
+			<div class='Leader-Wrapper'>
+				<div id='Alex' class='Leader'>
+					<img alt="Alex Rybchuk" src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/234/2341384/assets/b79.10986873_10207257307416692_6501735144405241931_n-2-.jpg" />
+				</div>
+				<div id='Marcin' class='Leader'>
+					<img alt="Marcin Krol" src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/234/2341384/assets/881.11403068_10207537091091109_7479221933255311522_n-2-.jpg" />
+				</div>
+				<div id='Victor' class='Leader'>
+					<img alt="Victor Lei" src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/234/2341384/assets/4de.12033690_1089719804374470_684867005_n-2-.jpg" />
+				</div>
+				<br style="clear: Leader;" />
+			</div>
+
+		</div>
+<!--
+	<div class="Beacon-Tower-Wrapper">
+		<div class='Beacon-Tower'>
+			<img alt="" src="http://robertrodriguezjrcom.c.presscdn.com/wp-content/gallery/hudson-valley/RRjr_Firetower-Light-Hudson-Valley.jpg" />
+			<img alt="" src="https://images.theoutbound.com/uploads/1436324757426/ivkaaoy9zu5zh0k9/0aa9075f3ea32eb9aee7d6e6fae05962" />
+			<img alt="" src="http://robertrodriguezjrcom.c.presscdn.com/wp-content/gallery/hudson-valley/RRjr_Beacon-Reflection-Hudson-Valley.jpg" />
+		</div>
+	</div>
+-->
+
+
+	<script type='text/javascript'>
+//Todo: Change opacity and position so overlap
+function run(interval, frames) {
+    var int = 1;
+    function func() {
+        document.body.id = "background_"+int;
+        int++;
+        if(int === frames) { int = 1; }
+    }
+    var swap = window.setInterval(func, interval);
+}
+run(5000, 3); //milliseconds, frames
+</script>
+	</body>
+
+</html>
+
+<!-- 
+	Page about something, CHECK
+	using floating, CHECK Leaders and info
+	images, CHECK
+	background images, CHECK
+	and semantic definitions of content. 
+	Use class names with meaning. Leaders
+	Float objects to create columns. Leaders 3 columns
+	Try putting floated objects within a width specific object CHECK in header
+-->
