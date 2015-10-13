@@ -576,7 +576,7 @@ justify-content: center; /* align horizontal */
 .design-archives .archives {
 	display:none;
 }
-.design-archives ul{
+.design-archives li{
 	position:absolute;
 	bottom: 60px;
 	margin-left: 5%;
@@ -600,7 +600,7 @@ justify-content: center; /* align horizontal */
 	height: 50px;
 	width: 50px;
 }
-.design-archives ul::before {
+.design-archives li::before {
 	-webkit-animation: rainy_rain .7s infinite linear;
 	animation: rainy_rain .7s infinite linear;
 	content: '';
