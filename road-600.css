@@ -558,10 +558,79 @@ justify-content: center; /* align horizontal */
 
 /* Design Archives */
 .design-archives {
-	/*display:block;*/
+	margin: 0; padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	padding-top: 60px;
+	
+	height: 40%; /* Approx for older */
+	height: -moz-calc(40% - 60px); /* Firefox */
+	height: -webkit-calc(40% - 60px); /* WebKit */
+	height: -o-calc(40% - 60px); /* Opera */
+	height: calc(40% - 60px); /* Standard */
+	position:relative;
+	display:block;
 	z-index:13;
+	height: 
 }
-
+.design-archives .archives {
+	display:none;
+}
+.design-archives ul{
+	position:absolute;
+	margin-top: 40%;
+	margin-left: 5%;
+	-webkit-animation: rainy 5s ease-in-out infinite 1s;
+	animation: rainy 5s ease-in-out infinite 1s;
+	background: #CCCCCC; 
+	border-radius: 50%;
+	-webkit-box-shadow: 
+		#CCCCCC 65px -15px 0 -5px, 
+		#CCCCCC 25px -25px, 
+		#CCCCCC 30px 10px, 
+		#CCCCCC 60px 15px 0 -10px, 
+		#CCCCCC 85px 5px 0 -5px;
+	box-shadow: 
+		#CCCCCC 65px -15px 0 -5px, 
+		#CCCCCC 25px -25px, 
+		#CCCCCC 30px 10px, 
+		#CCCCCC 60px 15px 0 -10px, 
+		#CCCCCC 85px 5px 0 -5px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+.design-archives ul::after {
+	-webkit-animation: rainy_shadow 5s ease-in-out infinite 1s;
+	animation: rainy_shadow 5s ease-in-out infinite 1s;
+	background: #000000;
+	border-radius: 50%;
+	content: '';
+	height: 15px;
+	width: 120px;
+	opacity: 0.2;
+	position: absolute;
+	left: 5px; 
+	bottom: -60px;
+	-webkit-transform: scale(.7);
+	-ms-transform: scale(.7);
+	transform: scale(.7);
+}
+.design-archives ul::before {
+	-webkit-animation: rainy_rain .7s infinite linear;
+	animation: rainy_rain .7s infinite linear;
+	content: '';
+	background: #CCCCCC;
+	border-radius: 50%;
+	display: block;
+	height: 6px;
+	width: 3px;
+	opacity: 0.3;
+	-webkit-transform: scale(.9);
+	-ms-transform: scale(.9);
+	transform: scale(.9);
+}
 /* DASHBOARD */
 
 footer {
