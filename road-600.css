@@ -93,6 +93,17 @@ header {
 		color: rgba(255,255,255,0.9);
 		text-shadow: 1px 1px 1px #aaa;
 	}
+	header h2  > abbr {
+		-webkit-margin-start: 0px;
+		-webkit-margin-before: 0.83em;
+		-webkit-margin-after: 0.83em;
+		padding-top: 5px;
+		font-size: 1em;
+		text-align: center;
+		font: 400 1em/0 'Merienda One', Helvetica, sans-serif;
+		color: rgba(255,255,255,0.9);
+		text-shadow: 1px 1px 1px #aaa;
+	}
 
 .summary {
 	margin: 0; padding: 0;
