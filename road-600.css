@@ -569,7 +569,7 @@ justify-content: center; /* align horizontal */
 	height: -webkit-calc(40vh - 60px); /* WebKit */
 	height: -o-calc(40vh - 60px); /* Opera */
 	height: calc(40vh - 60px); /* Standard */
-	position:relative;
+	position:absolute;
 	display:block;
 	z-index:13;
 }
@@ -620,8 +620,14 @@ justify-content: center; /* align horizontal */
 	left: 20%;
 }
 .zen-resources {
-	position: relative;
+	position: absolute;
 	z-index: 2;
+	padding-top: 60px;
+	padding-top: 40vh;/* Approx for older */
+	padding-top: -moz-calc(40vh - 60px);/* Firefox */
+	padding-top: -webkit-calc(40vh - 60px);/* WebKit */
+	padding-top: -o-calc(40vh - 60px);/* Opera */
+	padding-top: calc(40vh);/* Standard */
 }
 /* DASHBOARD */
 
