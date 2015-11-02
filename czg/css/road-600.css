@@ -15,7 +15,7 @@ body::before {
 	content: '';
 	background: no-repeat;
 	background-position: center bottom; 
-	background-image: url(Perspective_Road_Line.svg), url(Perspective_Road_Fit.svg);
+	background-image: url(../svg/Perspective_Road_Line.svg), url(../svg/Perspective_Road_Fit.svg);
     position: absolute;
     background-size: cover;
     width: 100%;
@@ -28,7 +28,7 @@ body::after{
 	content: '';
 	background: no-repeat;
 	background-position: center bottom; 
-	background-image: url(On-Road.svg);
+	background-image: url(../svg/On-Road.svg);
 }
 body {
 	/*overflow: hidden;*/
@@ -121,7 +121,7 @@ header {
 }
 @font-face {
     font-family: CloudFont;
-    src: url(AlphaSmoke.TTF);
+    src: url(../fonts/AlphaSmoke.TTF);
 }
 	.summary p:first-child{
 		position: fixed;
@@ -163,7 +163,7 @@ header {
 	color: white;
 	background: repeat-y;
 	background-position: center bottom; 
-	background-image: url(On-Just-Road.svg);
+	background-image: url(../svg/On-Just-Road.svg);
 	width: 101%;
 	height: auto%;
 	background-size: cover;
@@ -173,7 +173,7 @@ header {
 	content: '';
 	background: no-repeat;
 	background-position: center bottom; 
-	background-image: url(On-Just-Road.svg);
+	background-image: url(../svg/On-Just-Road.svg);
 }
 .main.supporting {
 	margin: 0; padding: 0;
@@ -182,7 +182,7 @@ header {
 	color: white;
 	background: repeat-y;
 	background-position: center bottom; 
-	background-image: url(On-Road.svg);
+	background-image: url(../svg/On-Road.svg);
 	width: 101%;
 	height: auto%;
 	background-size: cover;
@@ -192,7 +192,7 @@ header {
 	content: '';
 	background: no-repeat;
 	background-position: center bottom; 
-	background-image: url(On-Just-Road.svg);
+	background-image: url(../svg/On-Just-Road.svg);
 	width: 101%;
 	height: 15vh;
 	background-size: cover;
@@ -211,7 +211,7 @@ div.vertical-line{
 	content: '';
 	background: repeat-y;
 	background-position: center bottom; 
-	background-image: url(On-Road.svg);
+	background-image: url(../svg/On-Road.svg);
 */
 	z-index: 1;
 }
@@ -519,7 +519,7 @@ div.vertical-line{
             animation-play-state: paused;
 		}
 		.design-selection li:hover {
-			background: url(ufo.svg) no-repeat;
+			background: url(../svg/ufo.svg) no-repeat;
 			background-size: contain;
 
 display: -webkit-box;
@@ -649,11 +649,11 @@ footer {
 }
 @font-face {
 	font-family: 'icons';
-	src:url('icons.eot');
-	src:url('icons.eot?#iefix') format('embedded-opentype'),
-		url('icons.woff') format('woff'),
-		url('icons.ttf') format('truetype'),
-		url('icons.svg#icons') format('svg');
+	src:url('../icons/icons.eot');
+	src:url('../icons/icons.eot?#iefix') format('embedded-opentype'),
+		url('../icons/icons.woff') format('woff'),
+		url('../icons/icons.ttf') format('truetype'),
+		url('../icons/icons.svg#icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -743,7 +743,7 @@ footer a::before {
 
 /*
 .extra2 {
-    background-image: url(Perspective_Road_Line.svg);
+    background-image: url(../svg/Perspective_Road_Line.svg);
     position: absolute;
     background-size: cover;
     width: 100%;
