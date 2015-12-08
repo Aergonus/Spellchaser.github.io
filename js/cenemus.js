@@ -14,6 +14,6 @@ $(document).ready(function() {
     }
   }
   
-  console.log("Poll: " + p + ", User: " + u);
+  console.log("Poll: " + poll + ", User: " + user);
 });
 
