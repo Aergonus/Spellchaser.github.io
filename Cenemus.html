@@ -9,7 +9,7 @@
 		<meta name="description" content="Cenemus - Let's Dine!">
 		<meta name="viewport" content="width=device-width">
 		<link rel="shortcut icon" type="image/png" href="media/favicon.ico"/>
-		
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
 	</head>
@@ -18,7 +18,7 @@
     <header>
       <a class="primary" href="/">Cenemus</a>
     </header>
-	
+
     <!-- Banner - Responsive -->
     <div class="adContainer">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -32,7 +32,7 @@
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
     </div>
-	
+
 	<!-- Yelp API requirements https://www.yelp.com/developers/display_requirements -->
 	<div class="que"">
 		You are cordially invited to... Type your custom dining invitation here!
@@ -45,8 +45,11 @@
 		<div class="op"></div>
 		<div class="op"></div>
 	</div>
-
-	<button type="button" id="create">Create Poll</button>
+	<form action="Cenemus.html" id="redirect-poll">
+		<input type="hidden" name="p"  value="0" />
+		<input type="hidden" name="u"  value="0" />
+	</form>
+	<button type="button" form="redirect-poll" id="create">Create Poll</button>
 	<div id="overlay" tabindex="0">
     </div>
     <script type="text/javascript" src="./js/cenemus.js"></script>
